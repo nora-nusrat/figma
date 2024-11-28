@@ -1,0 +1,125 @@
+/*All common CSS Starts*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/*All common CSS Ends*/
+
+/*Top Header Part css Starts*/
+#HeaderPart{
+    padding: 30px 0;
+    background: #ffffff;
+}
+.HeaderFlex{
+    display: flex;
+}
+.logo{
+    width: 15%;
+}
+.menu{
+    width: 60%;
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: white;
+    padding: 0px 30px;
+}
+.icon{
+    width: 25%;
+    text-align: right;
+}
+.icon i{
+    padding-left: 40px;
+}
+/*Top Header Part css ends*/
+/*Banner Part CSS Starts*/
+#bannerPart{
+    background: url(../images/scandinavian-interior-mockup-wall-decal-background\ 1.jpg);
+    background-position:  center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 269px;
+    padding-bottom: 256px;
+}
+.flex{
+    position: relative;
+}
+.box {
+    background-color: wheat;
+    position: absolute;
+    top: -126px;
+    right: 64px;
+    padding: 20px;
+    z-index: 1;
+    width: 500px;
+    
+}
+.box h4{
+    color: #333333;
+}
+.box h1{
+    font-size: 52px;
+    font-weight: 700;
+    padding-right: 134px;
+    line-height: 65px;
+    color: #B88E2F;
+}
+.box p{
+  margin-bottom: 15px;
+  color: #333333;
+}
+.box a{
+
+    background-color: #B88E2F;
+    padding: 15px 35px;
+    color: white;
+    
+}
+/*Banner Part CSS ends*/
+/*Browse The Range CSS Starts*/
+#browsetheRange{
+    background-color: #ffffff;
+    padding-top: 76px;
+    padding-bottom: 80px;
+}
+.lineone{
+    text-align: center;
+}
+.lineone h3{
+    color: #333333;
+}
+.lineone p{
+    color: #333333;
+    margin-top: 10px;
+}
+.lineimageone{
+    width: 31%;
+}
+.lineFlex{
+    justify-content: space-between;
+    display: flex;
+    padding-top: 75px;
+}
+.text{
+    padding: 35px;
+}
+/*Browse The Range CSS Ends*/
